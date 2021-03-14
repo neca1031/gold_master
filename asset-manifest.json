@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/gold_master/static/css/main.1c833b39.chunk.css",
+    "main.js": "/gold_master/static/js/main.e2b222ee.chunk.js",
+    "main.js.map": "/gold_master/static/js/main.e2b222ee.chunk.js.map",
+    "runtime-main.js": "/gold_master/static/js/runtime-main.de6b3092.js",
+    "runtime-main.js.map": "/gold_master/static/js/runtime-main.de6b3092.js.map",
+    "static/js/2.e0479eb8.chunk.js": "/gold_master/static/js/2.e0479eb8.chunk.js",
+    "static/js/2.e0479eb8.chunk.js.map": "/gold_master/static/js/2.e0479eb8.chunk.js.map",
+    "index.html": "/gold_master/index.html",
+    "static/css/main.1c833b39.chunk.css.map": "/gold_master/static/css/main.1c833b39.chunk.css.map",
+    "static/js/2.e0479eb8.chunk.js.LICENSE.txt": "/gold_master/static/js/2.e0479eb8.chunk.js.LICENSE.txt",
+    "static/media/pks.155f180d.jpeg": "/gold_master/static/media/pks.155f180d.jpeg",
+    "static/media/svg-1.f6b83cd3.svg": "/gold_master/static/media/svg-1.f6b83cd3.svg",
+    "static/media/svg-2.93f22ef5.svg": "/gold_master/static/media/svg-2.93f22ef5.svg",
+    "static/media/svg-3.189419d3.svg": "/gold_master/static/media/svg-3.189419d3.svg",
+    "static/media/svg-4.f9b463c6.svg": "/gold_master/static/media/svg-4.f9b463c6.svg",
+    "static/media/svg1.846759f7.svg": "/gold_master/static/media/svg1.846759f7.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.de6b3092.js",
+    "static/js/2.e0479eb8.chunk.js",
+    "static/css/main.1c833b39.chunk.css",
+    "static/js/main.e2b222ee.chunk.js"
+  ]
+}
