@@ -74,15 +74,18 @@ export const FooterLinksContainer = styled.div`
 
   @media screen and (max-width: 820px) {
     padding-top: 32px;
+    flex-direction: column;
   }
 `;
 
 export const FooterLinksWrapper = styled.div`
   display: flex;
+  align-items: center;
 
   @media screen and (max-width: 820px) {
     flex-direction: column;
     margin-left: 10px;
+    align-items: center;
   }
 `;
 
@@ -173,4 +176,9 @@ export const SocialIcons = styled.div`
 export const SocialIconLink = styled.a`
   color: #fff;
   font-size: 24px;
+
+  &:hover {
+    color: #0467fb;
+    transition: 0.3s ease-out;
+  }
 `;

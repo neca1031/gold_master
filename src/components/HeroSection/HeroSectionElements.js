@@ -20,8 +20,14 @@ export const HeroH1 = styled.h1 `
  text-align: center;
 
  @media screen and (max-width: 960px) {
-     font-size: 55px;
+     font-size: 50px;
      margin-top: -130px;
+     
+     text-align: center;
+ }
+ @media screen and (max-width: 760px) {
+     font-size: 50px;
+     margin-top: 0px;
      
      text-align: center;
  }
@@ -48,7 +54,14 @@ export const HeroImage = styled.img`
  display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 600px;
-  height: 600px;
-  margin-bottom: 2px;
+  width: 40%;
+  height: 40%;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  @media screen and (max-width: 960px) {
+    width: 60%;
+  height: 60%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+ }
 `
