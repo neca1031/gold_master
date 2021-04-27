@@ -1,9 +1,19 @@
 import styled from 'styled-components';
 
+export const KlijentiContainer = styled.div `
+ background-color: #e1f1ff;
+ height: 120vh;
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ object-fit: contain;
+`
 export const KlijentiSec = styled.div`
  color: #fff;
  padding: 160px 0;
- background: #e1f1ff;
+ background: white;
  `
 
  export const KlijentiRow = styled.div `

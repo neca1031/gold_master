@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import {
+    KlijentiContainer,
     KlijentiSec,
     Container,
     KlijentiRow,
@@ -17,6 +18,7 @@ import {
 import Icon2  from '../../images/pks.jpeg';
 const Klijenti = () => {
     return (
+        <KlijentiContainer>
         <KlijentiSec id = 'klijenti'>
             <Container>
                 <KlijentiRow>
@@ -44,6 +46,7 @@ const Klijenti = () => {
                 </KlijentiRow>
             </Container>
         </KlijentiSec>
+        </KlijentiContainer>
     )
 }
 

@@ -18,16 +18,16 @@ const Sidebar = ({ isOpen, toggle }) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLinkR to='/usluge'>
-                        USLUGE
+                    <SidebarLinkR to='/'>
+                        POCETNA
                     </SidebarLinkR>
-                    <SidebarLinkS to='klijenti'
+                    {/* <SidebarLinkS to='klijenti'
                     smooth={true}
                     duration={500}
                     spy={true}
                     exact="true" onClick={toggle}>
                         KLIJENTI
-                    </SidebarLinkS>
+                    </SidebarLinkS> */}
                     <SidebarLinkR to='/about'>
                         O NAMA
                     </SidebarLinkR>
@@ -37,11 +37,11 @@ const Sidebar = ({ isOpen, toggle }) => {
                     spy={true}
                     exact="true"
                     onClick={toggle}>
-                        KONTAKT
+                        NAS RAD
                     </SidebarLinkS>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarRoute to='/forma'>POŠALJITE UPIT</SidebarRoute>
+                    <SidebarRoute to='/forma'>KONTAKT</SidebarRoute>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>

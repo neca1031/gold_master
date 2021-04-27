@@ -200,3 +200,15 @@ export const FormSelect = styled.select`
     
   }
 `
+
+export const FormP = styled.p`
+color: gray;
+ font-size: 20px;
+ margin-top: 40px;
+ margin-left: 20px;
+ 
+ font-family: 'Montserrat';
+ 
+ text-align: center;
+
+`

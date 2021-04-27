@@ -2,20 +2,23 @@ import React from 'react'
 import {
     HeroContainer,
     HeroH1,
-    HeroImage,
+    HeroH1Container,
+    HeroP,
     HeroButton
 } from './HeroSectionElements';
 import Icon1 from '../../images/svg1.svg';
 const HeroSection = () => {
     return (
         <HeroContainer>
+            <HeroH1Container>
             <HeroH1>
-                MI GRADIMO VAŠ BIZNIS ONLINE
+                Vase onlajn prisustvo nam je vazno.
             </HeroH1>
-            <HeroImage src={Icon1}/>
+            <HeroP>Sa nama ste sigurni da vas biznis dobija svu paznju koju zasluzuje.</HeroP>
             <HeroButton>
-                POŠALJITE UPIT
+                NAS RAD
             </HeroButton>
+            </HeroH1Container>
         </HeroContainer>
     )
 }

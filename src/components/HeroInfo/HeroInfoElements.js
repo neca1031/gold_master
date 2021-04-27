@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const HeroContainer = styled.div `
  background-color: #e1f1ff;
- height: 80vh;
+ height: 50vh;
  width: 100%;
  display: flex;
  flex-direction: column;
@@ -43,27 +43,8 @@ export const HeroH1 = styled.h1 `
      
      text-align: start;
  }
-`
-export const HeroButton = styled.button `
- border-radius: 4px;
-  background: #f77a3a;
-  white-space: nowrap;
-  font-family: 'Montserrat';
-  color: #fff;
-  outline: none;
-  border: none;
-  cursor: pointer;
-  font-size: 30px;
-  padding: 10px 40px;
-  margin-left: 20px;
-
-  &:hover {
-    transition: all 0.3s ease-out;
-    background: #fff;
-    background-color: #d4a600;
-  }
-`
-export const HeroP = styled.p `
+ `
+ export const HeroP = styled.p `
  color: gray;
  font-size: 20px;
  margin-top: 40px;

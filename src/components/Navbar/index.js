@@ -32,11 +32,11 @@ const Navbar = ({ toggle }) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                        <NavLinksR to='/usluge'>
-                            USLUGE
+                        <NavLinksR to='/'>
+                            POCETNA
                         </NavLinksR>
                         </NavItem>
-                        <NavItem>
+                        {/* <NavItem>
                         <NavLinksS to='klijenti'
                         smooth={true}
                         duration={500}
@@ -44,7 +44,7 @@ const Navbar = ({ toggle }) => {
                         exact="true">
                             KLIJENTI
                         </NavLinksS>
-                        </NavItem>
+                        </NavItem> */}
                         <NavItem>
                         <NavLinksR to='/about'>
                             O NAMA
@@ -56,12 +56,12 @@ const Navbar = ({ toggle }) => {
                         duration={500}
                         spy={true}
                         exact="true">
-                            KONTAKT
+                            NAS RAD
                         </NavLinksS>
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to='/forma'>POŠALJITE UPIT</NavBtnLink>
+                        <NavBtnLink to='/forma'>KONTAKT</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>

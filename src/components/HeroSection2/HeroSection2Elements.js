@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const HeroContainer = styled.div `
  background-color: #e1f1ff;
- height: 80vh;
+ height: 150vh;
  width: 100%;
  display: flex;
  flex-direction: column;
@@ -67,8 +67,8 @@ export const HeroP = styled.p `
  color: gray;
  font-size: 20px;
  margin-top: 40px;
- width: 50%;
  margin-left: 20px;
+ width: 50%;
  margin-bottom: 70px;
  font-family: 'Montserrat';
  
@@ -80,4 +80,13 @@ export const HeroP = styled.p `
  @media screen and (max-width: 760px) {
      
  }
+`
+
+export const HeroH2 = styled.h2 `
+ font-size: 30px;
+ color: black;
+ font-family: 'Montserrat';
+ margin-left: 20px;
+ margin-top: 40px;
+
 `
